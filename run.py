@@ -1,3 +1,12 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import random
+
+"""
+Create Battle Grid
+"""
+
+
+def build_grid(grid):
+    return [["O" for count in range(grid)] for count in range(grid)]
+
+
+print(build_grid(8))
